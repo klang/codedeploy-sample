@@ -1,0 +1,14 @@
+{
+    "applicationName": "DemoApplication",
+    "deploymentGroupName": "DemoFleet",
+    "revision": {
+	"revisionType": "GitHub",
+        "gitHubLocation": {
+            "repository": "klang/codedeploy-sample",
+            "commitId": "b21b26a6f96000a2301aca595beef91997daa3f4"
+        }
+    },
+    "deploymentConfigName": "CodeDeployDefault.HalfAtATime",
+    "description": "one step forward",
+    "ignoreApplicationStopFailures": true
+}
